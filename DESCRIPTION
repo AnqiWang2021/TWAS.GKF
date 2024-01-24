@@ -1,12 +1,22 @@
+Type: Package
 Package: TWAS.GKF
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Title: Empowering Causal Gene Identification in Transcriptome-wide Association Studies with Knockoff Inference
+Version: 0.0.1
+Authors@R: person("Anqi Wang",role = c("cre","aut"),
+                  email = "u3007799@connect.hku.hk")
+Description:  Incorporates the main idea of Ghostknockoff inference to achieve variable selection with guaranteed finite-sample FDR control
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports:
+    stats,
+    Matrix,
+    Rdsdp,
+    gtools,
+    RSpectra,
+    glmnet,
+    corpcor
+
+
+
